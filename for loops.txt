@@ -1,0 +1,104 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+ 	public static void main (String[] args) throws java.lang.Exception
+ 	{
+ 		// your code goes here
+ 		System.out.println("Welcome");
+ 
+
+ 	}
+}
+
+Variables
+variables are just the container in which the data is stored is known as variable.
+we have to define the type of the variable
+int a=10;
+example
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+ 	public static void main (String[] args) throws java.lang.Exception
+ 	{
+ 		// your code goes her
+ 		System.out.println("Welcome");//cursor will move to the next line
+ 		System.out.println("Sma");//cursor will points to the next thing
+ 		int a = 10;
+ 		System.out.println(a);
+ 
+ 
+
+ 	}
+}
+
+
+
+Operators
+the operators in which the operations are performed is known as operators
+1. Arthemetic operators
+2. assignment operators
+3. Comparison operators
+4. Logical operators
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+Program for Simple Intrest
+class SimpleINterst
+{
+ 	public static void main (String[] args) throws java.lang.Exception
+ 	{
+ 		// your code goes her
+ 		int p=2000000000;
+ 		int r=5;
+ 		int t=2;
+ 		int c=p*r*t;
+ 		System.out.println(c);
+ 
+ 
+ 	}
+}
+class OddEven
+{
+ 	public static void main (String[] args) throws java.lang.Exception
+ 	{
+ 		// your code goes her
+ 		int n=7;
+ 		if(n%2==0){
+ 		    System.out.println("Number is Even");
+ 		}
+ 		else{
+ 		    System.out.println("Number is odd");
+ 		}
+ 
+ 	}
+}
+class Maximum
+{
+ 	public static void main (String[] args) throws java.lang.Exception
+ 	{
+ 		// your code goes her
+ 		int n=7;
+ 		int b=8;
+ 		int c=9;
+ 		if(n>b){
+ 		    if(n>c){
+ 		        System.out.println("n is grater than both b and c");
+ 		    }
+ 		}
+ 		if(b>c){
+ 		    if(b>n){
+ 		        System.out.println("b is grater than n and c");
+ 		    }
+ 		}
+ 		else{
+ 		    System.out.println("c is gratest ");
+ 		}
+ 
+ 	}
+}
